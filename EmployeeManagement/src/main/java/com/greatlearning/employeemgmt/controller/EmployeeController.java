@@ -19,14 +19,6 @@ public class EmployeeController {
 	@Autowired
 	EmployeeService service;
 	
-	/*
-	 *  /employees  GET
-	 *  /employees/new
-	 *  /employees/edit/{id}
-	 *  /employees/delete/{id}
-	 *	/employees  POST
-	 *  /employees/{id} POST
-	 */
 	
 	@GetMapping("/employees")
 	public String getAllEmployees(Model model) {
